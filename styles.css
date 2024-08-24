@@ -1,0 +1,77 @@
+body {
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px); /* Adjust based on header height */
+    padding: 20px;
+    background-image:url(/images/pexels-carlos-pernalete-tua-210498-674783.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form {
+    background-position:bottom;
+    background:#007bff2d;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(3, 179, 238, 0.253);
+    width: 100%;
+    max-width: 600px;
+
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #002aff5f;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}

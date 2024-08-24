@@ -1,0 +1,69 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.background {
+    background-image: url(/images/pexels-dariazlatkina-9940563.jpg);/* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: absolute;
+    width: 100%;
+}
+
+.form-container {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.216); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    filter: none; /* Reset blur for the form */
+    z-index: 888;
+    width: 40%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    z-index: 9;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    z-index: 9;
+    filter: none;
+
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
